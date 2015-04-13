@@ -6,6 +6,7 @@
 plugin/build
 .gradle
 build/
+out.xml
 
 # Ignore Gradle GUI config
 gradle-app.setting
