@@ -1,0 +1,12 @@
+apply plugin: 'xproc'
+
+defaultTasks 'hi'
+
+buildscript {
+  repositories { mavenLocal() }
+  dependencies { classpath 'com.xmlcalabash.gradle:xproc:1.0-SNAPSHOT' }
+}
+
+task hi(type: com.xmlcalabash.gradle.XProcTask) {
+  greeting = 'Hi'
+}
