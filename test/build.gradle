@@ -1,6 +1,6 @@
 apply plugin: 'xproc'
 
-defaultTasks 'hi'
+defaultTasks 'runXProc'
 
 buildscript {
   repositories {
@@ -15,7 +15,7 @@ buildscript {
   }
 }
 
-task hi(type: com.xmlcalabash.gradle.XProcTask) {
+task runXproc(type: com.xmlcalabash.gradle.XProcTask) {
     xprocFile="test.xpl"
     inputFile="test.xpl"
     outputFile="out.xml"
