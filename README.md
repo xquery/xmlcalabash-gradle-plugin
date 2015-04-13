@@ -2,9 +2,14 @@
 
 # build plugin
 
-* cd plugin
-* gradle publish
+```
+cd plugin
+gradle publish
+```
 
 # test plugin
-* cd test
-* gradle
+
+```
+cd test
+gradle
+```
